@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>langituwais4-svg's About Page</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; font-family: Arial, Helvetica, "Liberation Sans", sans-serif; }
+
+  .page { display: flex; min-height: 100vh; min-height: 100dvh; }
+
+  .side {
+    flex: 0 0 14.86vw;
+    background: linear-gradient(to bottom, #3540d0, #36a6fb);
+  }
+
+  main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    min-height: max(96px, 17.2vh);
+    padding-left: 2.5vw;
+    background: linear-gradient(to right, #cc0a72, #ec2549);
+  }
+  .banner h1 { margin: 0; color: #fff; font-size: max(28px, 5.4vw); line-height: 1; }
+
+  .info p { margin: 0; font-size: max(16px, 2.08vw); line-height: 1.3; color: #000; }
+  .info .tag { color: #ffa500; }
+
+  .flag {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 0;
+    margin: 0;
+    padding: 2vh 2vw 3vh;
+  }
+  .flag svg { flex: 1; width: 100%; min-height: 240px; }
+  .flag figcaption { margin-top: 1vh; font-size: max(16px, 1.98vw); font-weight: bold; color: #000; text-align: center; }
+</style>
+</head>
+<body>
+<div class="page">
+  <aside class="side"></aside>
+  <main>
+    <header class="banner"><h1>langituwais4-svg</h1></header>
+
+    <section class="info">
+      <p>Cool Kid 📍</p>
+      <p>Bekasi, Indonesia</p>
+      <p class="tag">WORK EZ NOT HARD!!</p>
+    </section>
+
+    <figure class="flag">
+      <svg viewBox="497 183 686 484" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Indonesian flag on a pole">
+        <!-- flag (attached to pole, rotated 45°) -->
+        <g transform="translate(947 241) rotate(45)">
+          <rect x="0" y="138" width="320" height="131" fill="#fff"/>
+          <path d="M0 269 H320 V138" fill="none" stroke="#000" stroke-width="4"/>
+          <rect x="0" y="0" width="320" height="138" fill="#ff3131"/>
+        </g>
+        <!-- pole -->
+        <rect x="450.5" y="378.5" width="553" height="69" fill="#b85000" transform="rotate(-45 727 413)"/>
+      </svg>
+      <figcaption>PROUD INDONESIAN</figcaption>
+    </figure>
+  </main>
+</div>
+</body>
+</html>
